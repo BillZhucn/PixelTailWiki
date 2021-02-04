@@ -34,7 +34,14 @@ module.exports = {
                 collapsable: true,
                 children: [
                     ['whats-pixeltail/introduction.html', '简介'],
-                    ['whats-pixeltail/rules.html', '服务器玩家守则'],
+                    {
+                        title: '服务器玩家守则',
+                        collapsable: true,
+                        children: [
+                            ['play-rules/rules-simple.html', '简易版'],
+                            ['play-rules/rules-complete.html', '完整版'],
+                        ]
+                    },
                     {
                         title: '如何加入PixelTail',
                         collapsable: true,
@@ -44,6 +51,13 @@ module.exports = {
                             ['getting-start/socialmedia.html', '群组信息']
                         ]
                     },
+                    {
+                        title: '为PixelTail赞助',
+                        collapsable: true,
+                        children: [
+                            ['play-rules/rules-simple.html', '简易版'],
+                            ['play-rules/rules-complete.html', '完整版'],
+                        ]
                 ]
             },
             {
